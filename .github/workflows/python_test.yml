@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setuppython@v2
-      with:
-        pythonversion: '3.9'
-    - run: pip install r requirements.txt
-    - run: pytest
+        with:
+          pythonversion: '3.9'
+      - run: pip install r requirements.txt
+      - run: pytest
