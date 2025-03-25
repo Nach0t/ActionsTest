@@ -8,5 +8,5 @@ jobs:
       - uses: actions/setuppython@v2
         with:
           pythonversion: '3.9'
-      - run: pip install r requirements.txt
+      - run: pip install -r requirements.txt
       - run: pytest

@@ -1,0 +1,26 @@
+[tool.ruff]
+# Especifica la versión de Python que usas (ajústala si es necesario)
+target-version = "py38"
+
+# Habilita reglas útiles para tu código
+lint.select = [
+    "E",    # Errores de estilo (pycodestyle)
+    "F",    # Errores de Flake8 (errores generales)
+    "I",    # Orden de importaciones (isort)
+    "B",    # Errores de seguridad y buenas prácticas (flake8-bugbear)
+    "UP",   # Mejoras para versiones nuevas de Python
+    "S",    # Seguridad (bandit)
+    "C4",   # Buenas prácticas en la complejidad del código (mccabe)
+]
+
+# Ignora reglas específicas si es necesario (ajusta según tu preferencia)
+lint.ignore = [
+    "S101", # Ignora el uso de `assert` en los tests
+]
+
+# Configuración del formateador
+[tool.ruff.format]
+quote-style = "double"  # Usa comillas dobles para los strings
+indent-style = "space"  # Usa espacios en lugar de tabs
+line-ending = "lf"       # Fuerza saltos de línea tipo Unix (LF)
+docstring-code-format = true # Formatea los bloques de código dentro de docstrings
