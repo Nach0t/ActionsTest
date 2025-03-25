@@ -24,3 +24,6 @@ quote-style = "double"  # Usa comillas dobles para los strings
 indent-style = "space"  # Usa espacios en lugar de tabs
 line-ending = "lf"       # Fuerza saltos de línea tipo Unix (LF)
 docstring-code-format = true # Formatea los bloques de código dentro de docstrings
+
+# Establece el límite de longitud de línea a 120 caracteres
+max-line-length = 120
