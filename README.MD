@@ -1,5 +1,8 @@
 # Encriptación con AES
 
+![CI](https://github.com/Nach0t/ActionsTest/actions/workflows/python_test.yml/badge.svg)
+
+
 ## Requisitos:
 
 - Python 3.12
