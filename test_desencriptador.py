@@ -1,7 +1,5 @@
 import encriptador
 import desencriptador
-import encriptador
-import desencriptador
 
 
 def test_desencriptar_mensaje_simple():
