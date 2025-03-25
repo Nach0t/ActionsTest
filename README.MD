@@ -49,6 +49,7 @@ python desencriptador.py "Mensaje_encriptado" "mi_llave_secreta"
 
 - Python
 - Pytest
+- Flake8
 - Terminal
 
 ### Paso 1: Ejecutar pruebas unitarias
@@ -59,10 +60,17 @@ Para probar el encriptador:
 pytest -v test_encriptador.py
 ```
 
+```bash
+flake8 test_encriptador.py
+```
+
 Para probar el desencriptador:
 
 ```bash
 pytest -v test_desencriptador.py
 ```
 
+```bash
+flake8 test_desencriptador.py
+```
 - Revisa los resultados. Si se detecta un error inesperado, corrige el código y vuelve a ejecutar las pruebas.
