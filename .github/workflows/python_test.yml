@@ -1,13 +1,14 @@
 name: Python CI
 on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setuppython@v2
+      - uses: actions/setup-python@v4
         with:
-          pythonversion: '3.9'
+          python-version: '3.9'
       - run: pip install -r requirements.txt
       - run: pytest test_desencriptador.py
       - run: pytest test_encriptador.py
