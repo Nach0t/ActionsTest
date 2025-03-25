@@ -22,5 +22,5 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest test_desencriptador.py
-          pytest test_encriptador.py
+          flake8 test_desencriptador.py
+          flake8 test_encriptador.py
