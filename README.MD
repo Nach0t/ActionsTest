@@ -1,6 +1,7 @@
-# Encriptación con AES
+![CI](https://github.com/Nach0t/ActionsTest/actions/workflows/python_test.yml/badge.svg)   /  ![CI](https://github.com/Nach0t/ActionsTest/actions/workflows/flake8.yml/badge.svg)
 
-![CI](https://github.com/Nach0t/ActionsTest/actions/workflows/python_test.yml/badge.svg)
+
+# Encriptación con AES
 
 
 ## Requisitos:
